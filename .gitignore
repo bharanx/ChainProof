@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/dist/
+
+# Vite
+.vite/
+
+# Python generated files
+*.log
+
+# Database / runtime data
+*.db
+*.sqlite
+*.sqlite3
+data/
+backend/data/*.json
+desktop/agent/*.json
+!backend/data/training_data*.csv
+
+# Vercel & Deployment
+.vercel/
+
+# Tauri / Rust
+target/
+frontend/src-tauri/target/
+
+# Mobile / Expo
+mobile/.expo/
+mobile/web-build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python model cache
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.zip
+
+# Playwright MCP artifacts
+.playwright-mcp/

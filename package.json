@@ -1,0 +1,30 @@
+{
+  "name": "chainproof-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "lint": "vite build",
+    "test": "tsx tests/test_identity_mapping.ts",
+    "test:identity": "tsx tests/test_identity_mapping.ts",
+    "start": "node server.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recharts": "^3.1.2",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.3"
+  }
+}

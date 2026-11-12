@@ -1,0 +1,6 @@
+{
+  "name": "ChainProof - AI Container Security & Supply-Chain Risk Intelligence",
+  "description": "Audit container images in real-time with automated SBOM extraction, Docker Scout vulnerability analysis, Cosign signature verification, and machine learning anomaly detection.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
